@@ -1,2 +1,4 @@
 kaggle
 spotipy
+pandas
+numpy
