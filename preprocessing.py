@@ -40,7 +40,7 @@ def main():
     new_df = df.drop(columns=["name","popularity","duration_ms","artists","id_artists","release_date"])
     new_df["sample_mp3_url"]=""
 
-    new_df=new_df[starting_index:]
+    new_df=new_df[starting_index:].reset_index(drop=True)
 
     sp = spotipy_instance()
 
