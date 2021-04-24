@@ -139,6 +139,9 @@ cython_debug/
 
 # Dataset Large Files
 *.csv
+*.h5
+*.hdf?
+*.npy
 
 # Spotify Credentials
 credentials.json
